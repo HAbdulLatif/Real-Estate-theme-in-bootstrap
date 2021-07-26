@@ -1,0 +1,381 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+/*############# top header ##############*/
+.all-cities {
+    cursor: pointer;
+    color: white;
+}
+
+.all-cities:hover .top-navbar {
+    display: block;
+}
+
+.top-bar-container .top-navbar {
+    width: 140px;
+    position: absolute;
+    left: -1px;
+    top: 40px;
+    background-color: white;
+    display: none;
+    z-index: 1;
+}
+
+.top-bar-container .top-navbar-items {
+    list-style-type: none !important;
+    padding-left: 0px;
+}
+
+.top-navbar-items li {
+    width: 140px;
+    padding: 6px;
+
+}
+.top-bar-container .top-navbar a {
+    text-decoration: none;
+    color: black;
+    padding-top: 20px;
+    padding-left: 6px;
+    text-transform: uppercase;
+    color: #666;
+    font-weight: bold;
+    font-size: 12px;
+
+}
+.top-bar-container:hover .top-navbar {
+    display: block;
+} 
+
+.top-navbar-right {
+    margin-top: 7px;
+}
+
+.top-navbar-right ul>li {
+    display: inline;
+}
+
+.top-navbar-right ul>li>a {
+    color: #EEE;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+.rent_property {
+    border: 1px solid #EEE;
+    border-radius: 16px;
+    padding: 6px;
+
+}
+.rent_property:hover {
+    background-color: white;
+    color: black;
+}
+
+.breadcrumb{
+    background: none;
+    font-size: .850rem;
+}
+.breadcrumb > li a:hover{
+    text-decoration: none;
+    color:#eee ;
+}
+/*########### end of top header ############# */
+
+/* ########## Home Page ########### */
+.background_image_6{
+    background: url('../images/Home_1.jpg') center / cover no-repeat;
+    /* height:500px; */
+    margin-top: -138px;
+    padding-top: 140px;
+    filter: brightness(90%);
+
+}
+#filler .bg_color{
+   background-color:#2C3E50 ;  
+}
+#filler .btn-warning:hover{
+    background-color: rgb(0, 0, 0);
+    border: none;
+    color: #FFF;
+}
+.image-contect{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    filter: brightness(80%);
+
+}
+.image-contect:hover{
+    filter: brightness(55%);
+}
+.text-arrange_1{
+    position: absolute;
+    left: 40%;
+    top: 40%;
+}
+.font_11{
+    font-size: 17px;
+}
+
+.color_11{
+    background-color: #E5E5E5;
+}
+.mp-inside{
+    padding: 40px;
+}
+.color_12{
+    background-color: #2C3E50;
+}
+.color_13{
+    background-color: rgba(0,0,0,0.3) !important;
+    border-color: rgba(255,255,255,0.15)!important;
+}
+@media screen and (max-width: 992px) {
+     .color_14{
+        background-color: #2C3E50;
+    }
+}
+
+/* ############ End of Home page ######## */
+
+/* ########## Services page ######## */
+.background_image_2{
+    background: url('../images/servics_1.jpg') center / cover no-repeat;
+    margin-top: -138px;
+    padding-top: 140px;
+    filter: brightness(90%);
+    width: 100%;
+}
+/* ######## services page end ############ */
+
+/* ############# About us page ############# */
+.background_image{
+    background: url('../images/About_121.jpg') center / cover no-repeat;
+    /* height: 500px; */
+    margin-top: -138px;
+    padding-top: 140px;
+    filter: brightness(90%);
+}
+
+/* ############# content sections #############*/
+.color{
+    font-size: 30px;
+    color: #333;
+    font-weight: bold;
+}
+/* ####### end of content sections######### */
+
+
+/*############# card button ######### */
+.button1{
+    font-size: .875rem;
+    color:#fff ;
+    background-color:#2C3E50 ;
+    padding: 10px 15px 10px 15px;
+    border: #2C3E50;
+    border-radius: 5px ;
+}
+/* ########## end of card button ######### */
+
+/* ########## what we do ######## */
+.color1{
+    background-color:#f9f9f9 ;
+}
+.color2{
+    color: #2C3E50;
+}
+.image-set{
+    width: 100%;
+    height: 650px;
+}
+/* ######### what we do ########### */
+
+/* ########## Team Section ########## */
+.team-image{
+    width: 50%;
+}
+.color_3{
+    color: #777;
+    margin-top: 1.5rem;
+}
+/* ######## End of Team Section ######## */
+
+/* ########### footer section ######## */
+.color_4{
+    background-color: #2C3E50;
+}
+.color_5{
+    border-top: 1px solid grey;
+}
+.font_1{
+    font-size: 15px;
+}
+.color_6{
+    color: #eee;
+}
+.decoration
+{
+    list-style: none;
+    text-decoration: none;
+    display: inline;
+}
+.decoration > li a:hover{
+    text-decoration: none;
+    color:#eee ;
+}
+.sm-control-form{
+    color: #EEE;
+    background-color: rgba(0,0,0,0.3);
+    border-color: rgba(255,255,255,0.15)
+}
+.color_7:hover{
+    background-color: black ;
+}
+.border_top{
+    border-top: 7px solid black ;
+}
+.fa-facebook-square:hover {
+    filter:brightness(80%);
+ }
+.fa-twitter-square:hover {
+    filter:brightness(80%);
+}
+.fa-instagram-square:hover{
+    filter:brightness(80%);
+}
+
+.fa-apple:hover{
+    filter:brightness(80%);
+}
+.color_15{
+    color:#FFF ;
+}
+.fa-linkedin:hover{
+    filter:brightness(80%);
+}
+.fa-skype:hover{
+    filter:brightness(80%);
+}
+
+/* ############ end of footer section ####### */
+
+
+/* ############# end of about us page ################33 */
+
+/* ################ Builders page ############### */
+.background_image_5{
+    background: url('../images/12345.jpg') center / cover no-repeat;
+    margin-top: -138px;
+    padding-top: 140px;
+}
+
+/* ############### End of Builders page ############## */
+
+
+/* ####### Listing page ########## */
+
+.background_image_3{
+    background: url('../images/list_1432.jpg') center / cover no-repeat;
+    margin-top: -135px;
+    padding-top: 140px;
+    filter: brightness(85%);
+}
+
+
+#card-project .card{
+    border: none;
+}
+#card-project .img-container{
+    position: relative;
+    overflow: hidden;
+    background: rgba(0,0,0,0.7);
+    height:100%
+}
+#card-project .img-text{
+    position:absolute;
+    top: 5%;
+    left: 5%;
+}
+#card-project .prize-text{
+    position: absolute;
+    right: 5%;
+    bottom: 5%;
+    font-size: 30px;
+    color: #FFF;
+
+
+}
+#card-project .prize-text > span{
+    display: block;
+    margin-top: 3px;
+    font-size: 18px;
+    color: #FFF;
+
+}
+#card-project .line{
+    width: 100%;
+    margin: 3px 0px;
+    border-top: 1px solid #eee;
+}
+.font_3{
+    font-size: 15px;
+}
+.font_2{
+    font-size: 12px;
+}
+
+.font_4{
+    background:#2C3E50;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+}
+.color_8{
+    background-color: #f9f9f9;
+}
+.height_1{
+    min-height: 40vh;
+}
+.font_5{
+    color: #2C3E50;
+    font-size: 28px;
+}
+.font_6{
+    background:#2C3E50;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+    
+}
+.color_9{
+    background-color: #fef6f3;
+}
+
+
+/* ######## End of Listing page ######## */
+
+
+/* ######### Contact US ############ */
+.background_image_4{
+    background: url('../images/contact_2.jpg') center / cover no-repeat;
+    /* height: 500px; */
+    margin-top: -138px;
+    padding-top: 140px;
+    filter: brightness(80%);
+}
+
+.image_adjust{
+    width: 115%;
+    /* height: 500px; */
+    position: relative;
+    z-index: 500;
+    margin-top: 30px;
+    box-shadow: 1px 1px 15px black;
+}
+.color_10{
+    background-color:#2C3E50;
+}
+.font_8{
+    font-size: 16px;
+    color: #FFF;
+}
+/* ########### End of Contact Us ########## */
